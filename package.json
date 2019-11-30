@@ -1,6 +1,6 @@
 {
   "name": "vue-feather-icons-wrapper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Wrapper for vue-feather-icons which sets all icons available as components globally",
   "main": "index.js",
   "scripts": {

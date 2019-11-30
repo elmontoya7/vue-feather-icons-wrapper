@@ -1,10 +1,10 @@
 import * as icons from 'vue-feather-icons'
 
 export default {
-  install: function (Vue, options) {
+  install: function install(Vue, options) {
     try {
-      for (let component in icons) {
-        Vue.component(icons[component]['name'], icons[component])
+      for (var component in icons) {
+        Vue.component(icons[component]['name'], icons[component]);
       }
     } catch (e) {
       console.error(e.message);
